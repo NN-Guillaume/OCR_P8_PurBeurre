@@ -1,0 +1,274 @@
+header
+{
+    /* # */
+    
+}
+
+/* NAVIGATION */
+#logo_site
+{
+    display:block;
+    margin-left: 50px;
+}
+
+#site_name
+{
+    display:inline-block;
+    font-size: 50px;
+    color: brown;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#right_side
+{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 300px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#navigation button
+{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 0px;
+    background:grey;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 darkgrey;
+    height: 40px;
+    cursor: pointer;
+}
+
+#navigation button:hover
+{
+    background: greenyellow;
+    box-shadow: 0 3px 0 green;
+}
+
+#user
+{
+   display:block;
+    font-size: 20px;
+    color: brown;
+    margin-right: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#fav
+{
+   display:block;
+    font-size: 20px;
+    color: brown;
+    margin-right: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#login
+{
+   display:block;
+    font-size: 20px;
+    color: brown;
+    margin-right: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#logout
+{
+   display:block;
+    font-size: 20px;
+    color: brown;
+    margin-right: 0px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/* body */
+
+body
+{
+    background-image: url("images/pc_wallpaper.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: darkgrey;
+}
+
+/* base-product */
+#capsule
+{
+    padding: 100px;
+    vertical-align:top;
+    width: 180px;
+    height: 180; 
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: chocolate;
+    font-size: 30px;
+    font-weight: 700;
+    border: 2px solid white;
+    background-color: white;
+    opacity: 0.8;
+}
+
+/* informations */
+#nutri_1
+{
+    padding: 5px;
+    vertical-align:top;
+    width: 180px;
+    height: 180; 
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: chocolate;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#nutri_2
+{
+    padding: 5px;
+    vertical-align:top;
+    width: 180px;
+    height: 180; 
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: chocolate;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#components
+{
+    
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 100px;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#row_button
+{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 200px;
+}
+
+
+#open
+{
+    background-color: chocolate;
+    margin-top: 20px;
+    margin-left: 280px;
+    padding: 60px;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 0.90;
+}
+
+#open:hover
+{
+    background-color: green;
+}
+
+#score
+{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: 2px solid  white;
+    background-color: white;
+    opacity: 0.90;
+}
+
+#value100
+{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: 2px solid  white;
+    background-color: white;
+    opacity: 0.90;
+}
+
+
+/* Mentions */
+#mentions
+{
+    margin-top: 0px;
+}
+
+#mentions h2
+{
+    margin-top: 150px;
+    margin-left: 450px;
+    color: chocolate;
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+#mentions p
+{
+    color: chocolate;
+    
+}
+
+/* footer */
+
+footer
+{
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    /*background-image: url(images/tape.png)*/
+}
+
+#copyright h5
+{
+    color: chocolate;
+}
+
+/*--------------------------------------- R E S P O N S I V E -----------------------------------------*/
+
+@media screen and (max-width: 1280px) {
+    body
+    {
+    background-image: url("images/tablet_wallpaper.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+        background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: darkgrey;
+    }
+   
+}
+
+@media screen and (max-width: 600px) {
+    body
+    {
+        background-image: url("/static/rechercher/images/pc_wallpaper.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: darkgrey;
+    }
+}

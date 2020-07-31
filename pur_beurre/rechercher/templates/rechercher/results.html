@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'rechercher/css/results.css' %}"> <!--idem pour les images-->
+        
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'rechercher/images/logo.png' %}" />
+        <title>Pur Beurre</title>
+
+    </head>
+
+    <body>
+
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+        
+        <section id="navigation">
+                  
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <div class="row">
+                    <div id="logo_site" class="navbar_header">
+                        <img src="{% static 'rechercher/images/logo_100px.png' %}" alt="logo">
+                    </div>
+                    <div id="site_name" class="navbar-header">
+                        <p>Pur Beurre</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8">
+                <div id="right_side" class="row">
+                    <button class="button" type="submit" value="submit" id="research">Chercher</button>
+                    <div id="user">
+                        <li><a href="#"><img src="{% static 'rechercher/images/my_account.png' %}" alt="Mon Compte"> Mon Compte</a></li>
+                    </div>
+                    <div id="fav">
+                        <li><a href="#"><img src="{% static 'rechercher/images/weird_carrot_color.png' %}" alt="Mes Aliments"> Mes Aliments</a></li>
+                    </div>
+                    <div id="logout">
+                        <li><a href="#"><img src="{% static 'rechercher/images/log_out.png' %}" alt="Log Out"> Log Out</a></li>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+            
+        </section>
+
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+                
+        <section id="base_product">
+                  
+            <div class="row">
+
+                <div id="capsule" class="col-sm-12 text-center">
+                    ALIMENT CHERCHE
+                </div>
+
+            </div>
+            
+        </section>
+
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+   
+        <section id="replacement">
+
+             <div class="row">
+                <div id="sentence" class="col-sm-12 text-center">
+                    Vous pouvez remplacer cet aliment par :
+                </div>
+            </div>
+            
+            <div id="row_1" class="row">
+                
+                <div class="col-sm-4">
+                    <div id="score">SCORE</div>
+                    <img src="{% static 'rechercher/images/licorne_485.png' %}" width="200" height="200">
+                    <div class="row">
+                        <button id="add" type="button" type="submit">Sauvegarder</button>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-4">
+                    <div id="score">SCORE</div>
+                    <img src="{% static 'rechercher/images/licorne_485.png' %}" width="200" height="200">
+                    <div class="row">
+                        <button id="add" type="button" type="submit">Sauvegarder</button>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div id="score">SCORE</div>
+                    <img src="{% static 'rechercher/images/licorne_485.png' %}" width="200" height="200">
+                    <div class="row">
+                        <button id="add" type="button" type="submit">Sauvegarder</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="row_2" class="row">
+                
+                <div class="col-sm-4">
+                    <div id="score">SCORE</div>
+                    <img src="{% static 'rechercher/images/licorne_485.png' %}" width="200" height="200">
+                    <div class="row">
+                        <button id="add" type="button" type="submit">Sauvegarder</button>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-4">
+                    <div id="score">SCORE</div>
+                    <img src="{% static 'rechercher/images/licorne_485.png' %}" width="200" height="200">
+                    <div class="row">
+                        <button id="add" type="button" type="submit">Sauvegarder</button>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div id="score">SCORE</div>
+                    <img src="{% static 'rechercher/images/licorne_485.png' %}" width="200" height="200">
+                    <div class="row">
+                        <button id="add" type="button" type="submit">Sauvegarder</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+
+        </section>
+
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+        
+                <section id="mentions">
+                    <div class=col-sm-12>SEPARATOR SUP</div>
+                    <div class="container">
+                        <div class="red_divider"></div>
+                            <div class="heading">
+                                <h2>Mentions Légales</h2>
+                            </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <a class="thumbnail" target="_blank">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="thumbnail" target="_blank">
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumbnail" target="_blank">
+                                    <p>Mentions Légales</p>
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="thumbnail" target="_blank">
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumbnail" target="_blank">
+                                    <p>Contact</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=col-sm-12>SEPARATOR INF</div>
+                </section>
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+        
+          <footer class="text-center">
+              <section id="copyright">
+                <a href="#about">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
+                </a>
+                <h5>© Pur-Beurre.com</h5>
+              </section>
+        </footer>
+        
+<!--##################################################################################################-->
+<!--##################################################################################################-->
+        
+    </body>
+
+</html>
