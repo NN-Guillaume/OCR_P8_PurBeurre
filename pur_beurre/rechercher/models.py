@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Categories(models.Model):
-    id_categorie = models.IntegerField('id_categorie', null=False) #PK
+    id_categorie = models.IntegerField('id_categorie', null=True) #PK
     categorie_name = models.CharField('categorie_name', max_length=200, unique=True)
 
 class Products(models.Model):
